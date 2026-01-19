@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "611725044934",
+    "project_id": "job-search-app-45a17",
+    "storage_bucket": "job-search-app-45a17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611725044934:android:2cea04a0c3e7ac2ee8fbc7",
+        "android_client_info": {
+          "package_name": "com.example.job_searching_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCma7CPwIxrtWZ4ThJsT92UyFyOJ3nY7u0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

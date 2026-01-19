@@ -1,0 +1,116 @@
+{
+    "jobs": [
+        {
+            "id": "job_001",
+            "title": "Senior Flutter Developer",
+            "company": "Tech Solutions Inc.",
+            "location": "San Francisco, CA",
+            "workLocation": "remote",
+            "jobType": "fullTime",
+            "description": "We are looking for an experienced Flutter developer to join our mobile development team.",
+            "responsibilities": [
+                "Develop and maintain mobile applications using Flutter",
+                "Collaborate with cross-functional teams",
+                "Write clean, maintainable code",
+                "Participate in code reviews"
+            ],
+            "requirements": [
+                "3+ years of Flutter development experience",
+                "Strong knowledge of Dart programming language",
+                "Experience with state management (BLoC, Provider, Riverpod)",
+                "Understanding of REST APIs and Firebase"
+            ],
+            "benefits": [
+                "Competitive salary",
+                "Health insurance",
+                "Remote work",
+                "Professional development budget"
+            ],
+            "salaryRange": "$100k - $150k",
+            "experienceLevel": "Senior",
+            "skills": [
+                "Flutter",
+                "Dart",
+                "Firebase",
+                "REST API",
+                "Git"
+            ],
+            "applyUrl": "https://example.com/apply/job_001",
+            "postedDate": "2026-01-15T10:00:00Z"
+        },
+        {
+            "id": "job_002",
+            "title": "Mobile App Developer",
+            "company": "StartupXYZ",
+            "location": "New York, NY",
+            "workLocation": "hybrid",
+            "jobType": "fullTime",
+            "description": "Join our startup as a mobile app developer and help build the next generation of mobile applications.",
+            "responsibilities": [
+                "Build cross-platform mobile applications",
+                "Work with product team to define features",
+                "Optimize application performance",
+                "Implement new features based on user feedback"
+            ],
+            "requirements": [
+                "2+ years of mobile development experience",
+                "Experience with Flutter or React Native",
+                "Knowledge of mobile UI/UX best practices",
+                "Familiarity with Agile methodologies"
+            ],
+            "benefits": [
+                "Equity options",
+                "Flexible hours",
+                "Learning opportunities",
+                "Modern office"
+            ],
+            "salaryRange": "$80k - $120k",
+            "experienceLevel": "Mid-Level",
+            "skills": [
+                "Flutter",
+                "Mobile Development",
+                "UI/UX",
+                "Agile"
+            ],
+            "applyUrl": "https://example.com/apply/job_002",
+            "postedDate": "2026-01-17T14:30:00Z"
+        },
+        {
+            "id": "job_003",
+            "title": "Junior Flutter Developer",
+            "company": "Digital Agency Co.",
+            "location": "Austin, TX",
+            "workLocation": "onsite",
+            "jobType": "fullTime",
+            "description": "We're seeking a junior Flutter developer to join our growing team and learn from experienced developers.",
+            "responsibilities": [
+                "Assist in developing Flutter applications",
+                "Fix bugs and implement minor features",
+                "Write unit tests",
+                "Participate in team meetings and code reviews"
+            ],
+            "requirements": [
+                "1+ year of Flutter experience or strong portfolio",
+                "Basic understanding of Dart and object-oriented programming",
+                "Willingness to learn and grow",
+                "Good communication skills"
+            ],
+            "benefits": [
+                "Mentorship program",
+                "Health insurance",
+                "Paid time off",
+                "Career growth opportunities"
+            ],
+            "salaryRange": "$60k - $80k",
+            "experienceLevel": "Junior",
+            "skills": [
+                "Flutter",
+                "Dart",
+                "Git",
+                "Problem Solving"
+            ],
+            "applyUrl": "https://example.com/apply/job_003",
+            "postedDate": "2026-01-18T09:00:00Z"
+        }
+    ]
+}
