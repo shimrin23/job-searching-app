@@ -76,7 +76,7 @@ lib/
     └── widgets/                   # Reusable widgets
 ```
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Flutter SDK (>= 3.9.2)
@@ -111,7 +111,7 @@ lib/
    flutter run
    ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### API Configuration
 Update the API base URL in `lib/core/constants/app_constants.dart`:
