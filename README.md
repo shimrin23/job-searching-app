@@ -2,9 +2,9 @@
 
 A comprehensive Flutter job searching application with modern architecture, offline-first capabilities, and production-ready features.
 
-## 🚀 Features
+## Features
 
-### ✅ Implemented Features
+### Implemented Features
 
 #### **Authentication**
 - Sign up with email and password
@@ -46,7 +46,7 @@ A comprehensive Flutter job searching application with modern architecture, offl
 - **Error Handling** with custom failures and exceptions
 - **Network Awareness** with connectivity checks
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lib/
@@ -129,7 +129,7 @@ static const String baseUrl = 'YOUR_API_URL';
 5. Create Firestore database
 6. Enable Cloud Storage
 
-## 📦 Key Dependencies
+##  Key Dependencies
 
 - **flutter_bloc** (^8.1.6) - State management
 - **get_it** (^8.0.2) - Dependency injection
@@ -141,7 +141,7 @@ static const String baseUrl = 'YOUR_API_URL';
 - **cached_network_image** (^3.4.1) - Image caching
 - **connectivity_plus** (^6.1.1) - Network status
 
-## 🏗️ Architecture
+##  Architecture
 
 This app follows **Clean Architecture** principles:
 
@@ -156,36 +156,36 @@ This app follows **Clean Architecture** principles:
 - **Dependency Injection** - Loose coupling
 - **Offline-First** - Cache-first data strategy
 
-## 🎨 Features Breakdown
+##  Features Breakdown
 
-### Phase 1: Architecture Setup ✅
+### Phase 1: Architecture Setup 
 - Dependency injection with get_it
 - Clean architecture folder structure
 - Error handling framework
 - Network connectivity management
 
-### Phase 2: Authentication ✅
+### Phase 2: Authentication 
 - Firebase Auth integration
 - Sign in/Sign up flows
 - Password reset
 - Auth state management
 - Secure session handling
 
-### Phase 3: Data Layer ✅
+### Phase 3: Data Layer 
 - Offline-first repository pattern
 - Hive local caching
 - API integration with Dio
 - Pagination support
 - Network-aware data fetching
 
-### Phase 4: Business Logic ✅
+### Phase 4: Business Logic 
 - Job listing with pagination
 - Search and filters
 - Save/unsave jobs
 - Apply to jobs tracking
 - Profile management
 
-### Phase 5: UI Layer ✅
+### Phase 5: UI Layer 
 - Responsive design
 - Loading states
 - Error handling
@@ -200,23 +200,23 @@ This app follows **Clean Architecture** principles:
 - Advanced filters
 - Job recommendations
 
-## 🧪 Testing
+## Testing
 
 Run tests:
 ```bash
 flutter test
 ```
 
-## 📱 Platforms Supported
-- ✅ Android
-- ✅ iOS
-- ⚠️ Web (partial support)
-- ⚠️ Windows/Mac/Linux (partial support)
+## Platforms Supported
+-  Android
+-  iOS
+-  Web (partial support)
+-  Windows/Mac/Linux (partial support)
 
-## 🤝 Contributing
+## Contributing
 This is a learning/portfolio project. Feel free to fork and customize!
 
-## 📄 License
+##  License
 MIT License
 
 ---
