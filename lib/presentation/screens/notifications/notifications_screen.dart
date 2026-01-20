@@ -99,9 +99,9 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                     child: const Icon(Icons.delete, color: Colors.white),
                   ),
                   child: InkWell(
-                    onTap: () {
+                    onTap: () async {
                       if (!notification.isRead) {
-                        _notificationService.markAsRead(notification.id);
+                        await _notificationService.markAsRead(notification.id);
                       }
                       // Navigate to job details if jobId exists
                       if (notification.jobId != null) {

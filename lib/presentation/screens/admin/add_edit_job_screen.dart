@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:uuid/uuid.dart';
 import '../../../domain/entities/job.dart';
+import '../../../data/services/notification_service.dart';
 import '../../theme/app_theme.dart';
 import '../../widgets/common_widgets.dart';
 
@@ -17,6 +18,7 @@ class AddEditJobScreen extends StatefulWidget {
 class _AddEditJobScreenState extends State<AddEditJobScreen> {
   final _formKey = GlobalKey<FormState>();
   final _firestore = FirebaseFirestore.instance;
+  final _notificationService = NotificationService();
 
   late TextEditingController _titleController;
   late TextEditingController _companyController;
@@ -112,6 +114,12 @@ class _AddEditJobScreenState extends State<AddEditJobScreen> {
         // Add new job
         final docRef = await _firestore.collection('jobs').add(jobData);
         await docRef.update({'id': docRef.id});
+        
+        // Send notification to all users about new job
+        await _notificationService.notifyNewJobPosted(
+          _titleController.text.trim(),
+          docRef.id,
+        );
       }
 
       if (mounted) {

@@ -11,6 +11,7 @@ import '../../../logic/job/job_event.dart';
 import '../../../logic/job/job_state.dart';
 import '../../../logic/saved_jobs/saved_jobs_bloc.dart';
 import '../../../logic/saved_jobs/saved_jobs_event.dart';
+import '../../../data/services/notification_service.dart';
 import '../../theme/app_theme.dart';
 import '../../widgets/common_widgets.dart';
 
@@ -42,6 +43,9 @@ class JobDetailsScreen extends StatelessWidget {
                   context.read<JobBloc>().add(ToggleSaveJob(currentJob.id));
                   if (currentJob.isSaved) {
                     context.read<SavedJobsBloc>().add(LoadSavedJobs());
+                  } else {
+                    // Send notification when job is saved
+                    NotificationService().notifyJobSaved(currentJob.title);
                   }
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
@@ -407,6 +411,11 @@ ${currentJob.applyUrl ?? 'Contact company for application details'}''';
           uri,
           mode: LaunchMode.externalApplication,
         );
+
+        if (launched) {
+          // Send notification when job application is opened
+          NotificationService().notifyJobApplied(currentJob.title, currentJob.id);
+        }
 
         if (!launched && context.mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
